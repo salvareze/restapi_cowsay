@@ -7,7 +7,7 @@ El ejercicio consta de una petición `GET`, la cual devolverá un mensaje y pequ
 ### 1.1. Clonar el repositorio.
 Colocate en la carpeta donde desees clonar el repositorio.
 ```bash
-git clone https://github.com/cassilup/express-cowsay
+git clone https://github.com/salvareze/restapi_cowsay.git
 ```
 ### 1.2. Instalar dependencias de npm.
 Por medio de la terminal en lel path del proyecto procedemos a instalar las dependencias:
@@ -22,14 +22,17 @@ El comando generico es `node` seguido de la ruta y/o nombre del archivo JS:
 ```bash
 node src/index.js
 ```
+<br>![getMsg](backups/run1.png)
 #### 1.3.2  Utilizando "nodemon" el cual ejecuta npm por medio de un alías configurado en el package.json. 
 Comando `npm` seguido de `run` y el alías, en este ejemplo `'dev'`.
 ```bash
 npm run dev
 ```
-Nota: Se suele utilizar cuando se tiene una estructura amplia.
+<br>![getMsg](backups/run2.png)
+<br>Nota: Se suele utilizar cuando se tiene una estructura amplia.
 #### 1.4. Abre tu navegador o el Postman en http://localhost:3000/
-Deberás visualizar:
+Deberás visualizar:<br>
+![getMsg](backups/getMsg.png)
 
 #### 1.4. Detener la aplicación.
 Para detener el servidor teclea: `CTRL`+`C`.
