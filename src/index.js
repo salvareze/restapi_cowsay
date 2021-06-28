@@ -13,7 +13,6 @@ app.use(express.json());
 
 //routes
 app.use(require('./routes/routes'));
-app.use('/sayit',require('./routes/routes'));
 
 //starting server
 app.listen(app.get('port'), () => {

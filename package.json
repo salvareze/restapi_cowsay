@@ -1,13 +1,14 @@
 {
-  "name": "restapi_ejemp",
+  "name": "restapi_cowsay",
   "version": "1.0.0",
+  "description": "API_Rest image demo",
+  "author": "Samanta Alvarez E.",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cowsay": "^1.5.0",
     "express": "^4.17.1",
