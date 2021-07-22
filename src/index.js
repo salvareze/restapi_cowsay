@@ -25,3 +25,4 @@ class claseA{
         this.bar = bar;
     }
 }
+//feature-2
