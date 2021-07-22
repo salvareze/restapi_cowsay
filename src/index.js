@@ -18,3 +18,10 @@ app.use(require('./routes/routes'));
 app.listen(app.get('port'), () => {
     console.log(`Server running on http://${app.get('host')}:${app.get('port')}`);
 });
+
+class claseA{
+    constructor(foo, bar){
+        this.foo = foo;
+        this.bar = bar;
+    }
+}
